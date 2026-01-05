@@ -1,0 +1,17 @@
+sources:
+  - name: raw
+    database: DBT_DB_Ibrahim
+    schema: DBT_SCHEMA_ibrahim
+
+    tables: 
+     - name : customers
+       identifier: customers
+
+     - name : orders
+       identifier: orders
+
+     - name : orderitems
+       identifier: orderitems
+
+     - name : employees
+       identifier: employees
